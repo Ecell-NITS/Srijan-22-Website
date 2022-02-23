@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Axiforma';
+    src: local('Axiforma Medium'), local('Axiforma-Medium'),
+        url('Axiforma-Medium.woff2') format('woff2'),
+        url('Axiforma-Medium.woff') format('woff'),
+        url('Axiforma-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  *{
+      font-family: 'Axiforma';
+      margin:0;
+      padding:0;
+  }
+  body{
+      background-color: rgb(110,122,62);
+  }
+  .navbar{
+      text-align: center;
+      color: black;
+      width:100%;
+      height: 26px;
+      background-color: white;
+  }
+
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.register .srijan{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    max-width:30%;
+}
+.register .form{
+    background-color: white;
+    padding:5% 2% 5% 5%;
+    min-width:35%;
+    
+}
+.register .form h5{
+   text-align: center;
+    
+}
+
+.register .form input{
+    padding:4px;
+    border-left:0;
+    border-right:0;
+    border-top:0;
+    border-bottom:1px solid black;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+}
+#submit{
+    width: 30%;
+    border-bottom: 0;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 4%;
+}
+.error{
+    min-width: 40%;
+    background-color: white;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.error h5{
+    font-size: 30px;
+}

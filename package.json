@@ -1,24 +1,18 @@
 {
-  "name": "srijan-22-website",
+  "name": "srijan",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/E-cell-NITS/Srijan-22-Website.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/E-cell-NITS/Srijan-22-Website/issues"
-  },
-  "homepage": "https://github.com/E-cell-NITS/Srijan-22-Website#readme",
   "dependencies": {
-    "body-parser": "^1.19.2",
     "ejs": "^3.1.6",
-    "express": "^4.17.3"
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15"
   }
 }
