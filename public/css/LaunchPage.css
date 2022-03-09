@@ -46,10 +46,6 @@
       }
   .lottie{
     position: relative;
-    /* width: 403px;
-    height: 409px;
-    left: 36%;
-    top: 19%; */
     width: 410px;
     height: 403px;
     left: 35%;
@@ -57,18 +53,11 @@
 
     background-color: #15131A;
     border-radius: 50%;
-    animation: none
+    
 
   }
  
-  @keyframes rotate-s-loaders {
-    from {
-      transform: rotate(0);
-    }
-    to {
-      transform: rotate(0);
-    }
-  }
+  
   
   .launch_main .launch_content h1{
     position: absolute;
@@ -79,22 +68,7 @@
     color: #FFFFFF;
        
   }
-  .launch_main .launch_content img{
-    /* position: absolute;
-    top: 40%;
-    bottom: 60%;
-    left: 40%;
-    font-size: 100px;
-    color: #FFFFFF; */
   
-
-    position: absolute;
-    top: 33%;
-    /* bottom: 60%; */
-    left: 37%;
-    font-size: 110px;
-    
-}
 
 .launch_main .launch_text h5{
   position: absolute;
@@ -124,21 +98,30 @@
 
 @media (max-width:1050px){
  .launch_body{
-  left: 25%;
-  top: 19%;
-  width: 413px;
-  height: 401px;
+  left: 30%;
+    top: 14%;
+    width: 383px;
+    height: 391px
   }
 
   .lottie{
-    width: 404px;
-    height: 393px;
+    width: 381px;
+    height: 377px;
+    left: 30%;
+    top: 15%;
   }
 
   .launch_main .launch_content h1{
-    top: 29%;
+    top: 28%;
     left: 3%;
-    font-size: 110px;
+    font-size: 102px;
+  }
+  .launch_main .launch_text h5{
+    left: 39%;
+
+  }
+  .launch_main .launch_text h4{
+    left: 42%;
   }
   
 }
@@ -152,14 +135,24 @@
    }
  
    .lottie{
-    width: 372px;
-    height: 375px;
+    width: 377px;
+    height: 373px;
+    left: 27.15%;
+    top: 14%
    }
  
    .launch_main .launch_content h1{
     top: 26%;
     font-size: 100px
    }
+  
+  .launch_main .launch_text h5{
+    left: 37%;
+
+  }
+  .launch_main .launch_text h4{
+    left: 41%;
+  }
    
  }
 
@@ -172,24 +165,26 @@
    }
  
    .lottie{
-    width: 295px;
+    width: 290px;
     height: 311px;
+    top: 14.5%;
+    left: 26.12%;
    }
  
    .launch_main .launch_content h1{
     top: 26%;
-    font-size: 79px;
+    font-size: 77px;
    }
 
    .launch_main .launch_text h5{
     bottom: 12%;
-    left: 29%;
+    left: 31%;
     font-size: 29px
    }
 
    .launch_main .launch_text h4{
     bottom: 4%;
-    left: 35%;
+    left: 36%;
     font-size: 23px;
    }
    
@@ -204,25 +199,27 @@
    }
  
    .lottie{
-    width: 243px;
-    height: 262px;
+    width: 241px;
+    height: 260px;
+    top: 16.6%;
+    left: 19.12%;
    }
  
    .launch_main .launch_content h1{
-    top: 25%;
-    font-size: 65px;
+    top: 26%;
+    font-size: 64px;
    }
 
-   .launch_body .launch_text h5{
+   .launch_main .launch_text h5{
     bottom: 12%;
-    left: 36%;
-    font-size: 27px;
+    left: 21%;
+    font-size: 29px;
    }
 
-   .launch_body .launch_text h4{
+   .launch_main .launch_text h4{
     bottom: 4%;
-    left: 40%;
-    font-size: 22px;
+    left: 30%;
+    font-size: 23px;
    }
    
  }
