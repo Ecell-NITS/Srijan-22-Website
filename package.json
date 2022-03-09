@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/E-cell-NITS/Srijan-22-Website#readme",
   "dependencies": {
+    "aws-serverless-express": "^3.4.0",
     "body-parser": "^1.19.2",
     "ejs": "^3.1.6",
     "express": "^4.17.3",
+    "lambda-warmer": "^1.2.2",
     "nodemon": "^2.0.15"
   }
 }
