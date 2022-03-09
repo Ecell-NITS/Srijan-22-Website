@@ -34,7 +34,7 @@
     background:linear-gradient(180deg, #1FD1F9 0%, #B621FE 100%);
     display: inline-block;
     font-size: 20px;  
-    animation: rotate-s-loader 1s linear infinite;
+    animation: rotate-s-loader 2s linear infinite;
       }
       @keyframes rotate-s-loader {
         from {
@@ -74,8 +74,8 @@
     position: absolute;
     top: 28%;
     bottom: 5%;
-    left: 6%;
-    font-size: 100px;
+    left: 3%;
+    font-size: 110px;
     color: #FFFFFF;
        
   }
