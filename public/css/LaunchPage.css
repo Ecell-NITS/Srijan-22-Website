@@ -10,11 +10,12 @@
   font-weight: medium;
   font-style: normal;
 }
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: geometric;
+
   }
   .launch_main {
     background:     #15131A;
@@ -191,6 +192,7 @@
  }
 
  @media (max-width:500px){
+  
   .launch_body{
     left: 18%;
     top: 16%;

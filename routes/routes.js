@@ -4,7 +4,7 @@ const { getIndexPage, getEventPage, getLaunchPage } = require("../controllers/ge
 
 const router = express.Router();
 
-router.get("/", getIndexPage); // serves index page
-router.get("/events", getEventPage); // serves event page
-router.get("/LaunchPage" , getLaunchPage); // serves lauch page
+router.get("/", getLaunchPage); // serves index page
+// router.get("/events", getEventPage); // serves event page
+// router.get("/LaunchPage" , getLaunchPage); // serves lauch page
 module.exports = router;
