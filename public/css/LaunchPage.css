@@ -46,7 +46,7 @@
         }
       }
   .lottie{
-    position: relative;
+    position: absolute;
     width: 410px;
     height: 403px;
     left: 35%;
