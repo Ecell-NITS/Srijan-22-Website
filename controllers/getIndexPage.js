@@ -1,17 +1,17 @@
 const getIndexPage = (req, res) => {
-    res.render('index');
-}
+  res.render("index");
+};
 
 const getEventPage = (req, res) => {
-    res.render('eventPage');
-}
+  res.render("eventPage");
+};
 
-const getLaunchPage = (req , res) => {
-    res.render('launchPage');
-}
+const getLaunchPage = (req, res) => {
+  res.render("LaunchPage");
+};
 
 module.exports = {
-    getIndexPage,
-    getEventPage,
-    getLaunchPage,
-}
+  getIndexPage,
+  getEventPage,
+  getLaunchPage,
+};
