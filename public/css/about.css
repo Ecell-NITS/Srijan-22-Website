@@ -229,7 +229,7 @@
     }
     .about-anim{
         position: relative;
-        left: 0;
+        left: 3px;
         margin-bottom: 10%;
         transition: 0s;
         animation: 0s;
@@ -243,7 +243,7 @@
     }
     .about-anim.sticky{
         position: sticky;
-        left: 0;
+        left: 3px;
         top: -14%;
         transition: 0s;
         animation: 0s;

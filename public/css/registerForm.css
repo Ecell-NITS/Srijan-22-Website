@@ -187,7 +187,7 @@ body{
         width: 90%;
     }
     .register-heading{
-        font-size:1.75rem;
+        font-size:1rem;
     }
     .register-description{
         display: none;
@@ -205,7 +205,7 @@ body{
     }
     .team-name,.first-name,.last-name,.phone-number,.p-gender{
         position: relative;
-        font-size: 1.9rem;
+        font-size: 1.4rem;
     }
     .tname-extra{
         display: none;
@@ -218,10 +218,12 @@ body{
         margin-bottom: 1rem;
     }
     #tname,#fname,#lname,#pnumber{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
+        width: 18rem;
+    height: 25px;
     }
     .cc{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
     #pnumber{
         width: 15rem;
@@ -230,8 +232,8 @@ body{
         margin-top: 1rem;
     }
     #gender{
-        font-size: 1.8rem;
-        height: 45px;
+        font-size: 1.5rem;
+        height: 40px;
     }
     .controls{
         display: flex;

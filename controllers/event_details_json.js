@@ -94,7 +94,7 @@ const event_list = [
     },
     { 
         id: "outwit_the_boardroom",
-        name: "Outwit the Boardroom",
+        name: "Outwit The Boardroom",
         is_team_event: true,
         min_team_members: 5,
         max_team_members: 5,
