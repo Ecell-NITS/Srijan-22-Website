@@ -1,173 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="/css/loader.css" />
-    <link rel="stylesheet" href="/css/preAnnouncement.css" />
-    <link rel="stylesheet" href="/css/menu.css" />
-    <link rel="stylesheet" href="/css/styles.css" />
-    <link rel="stylesheet" href="/css/eventPage.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!-- SCROLL ANIMATION PACKAGE -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- SCROLL ANIMATION PACKAGE -->
-    <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/favicons/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    
-    <title>Srijan 3.0</title>
-  </head>
-  <body>
-    <%- include("./partials/loader.ejs") %>
+  <link rel="stylesheet" href="/css/loader.css" />
+  <link rel="stylesheet" href="/css/preAnnouncement.css" />
+  <link rel="stylesheet" href="/css/menu.css" />
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="stylesheet" href="/css/eventPage.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- SCROLL ANIMATION PACKAGE -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- SCROLL ANIMATION PACKAGE -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/favicons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Srijan 3.0</title>
+</head>
+
+<body>
+  <%- include("./partials/loader.ejs") %>
     <%- include("./partials/menu.ejs") %>
 
-    <div id="main">
-      <!-- <%- include("./partials/preAnnouncement.ejs", {heading: {first: "Event", second: "List"}}) %> -->
+      <div id="main">
+        <!-- <%- include("./partials/preAnnouncement.ejs", {heading: {first: "Event", second: "List"}}) %> -->
         <!-- SOCIAL MEDIA LINKS -->
         <div class="socialIcons">
-          <a id="icon-s" target="_blank" href="https://www.linkedin.com/company/srijan-nit-silchar"
-          ><i
-            id="Linkedin"
-            class="fa-brands fa-linkedin-in fa-linkedin-in-1"
-          ></i
-        ></a>
-        <a id="icon-s" target="_blank" href="https://www.facebook.com/srijan.nits/"
-          ><i id="Facebook" class="fa-brands fa-facebook-f fa-facebook-f-1"></i
-        ></a>
-        <a href="https://www.instagram.com/srijan_nits/"
-          ><i id="Instagram" class="fa-brands fa-instagram fa-instagram-1"></i
-        ></a>
-        <hr id="VerticalLine" class="leftVerticalLine" />
-      </div>
-      <!-- SOCIAL MEDIA LINKS -->
-
-      <!-- EVENTS -->
-      <div id="eventListContainer">
-        <div tabindex="0" id="eventDropDown">
-          <div id="CurrentEventText">Events</div>
-          <div id="dropDownOptionsContainer">
-            <div class="dropDownOption" value="events">Events</div>
-            <!-- <div class="dropDownOption" value="workshops">Workshops</div>
-            <div class="dropDownOption" value="speakerSessions">Speaker Sessions</div> -->
-          </div>
+          <a id="icon-s" target="_blank" href="https://www.linkedin.com/company/srijan-nit-silchar"><i id="Linkedin"
+              class="fa-brands fa-linkedin-in fa-linkedin-in-1"></i></a>
+          <a id="icon-s" target="_blank" href="https://www.facebook.com/srijan.nits/"><i id="Facebook"
+              class="fa-brands fa-facebook-f fa-facebook-f-1"></i></a>
+          <a href="https://www.instagram.com/srijan_nits/"><i id="Instagram"
+              class="fa-brands fa-instagram fa-instagram-1"></i></a>
+          <hr id="VerticalLine" class="leftVerticalLine" />
         </div>
+        <!-- SOCIAL MEDIA LINKS -->
 
-        <div class="eventList active" id="events">
-
-          <div class="eventListScrollDotBar">
-            <div class="eventListScrollDot active"></div>
-            <div class="eventListScrollDot"></div>
-            <div class="eventListScrollDot"></div>
-            <div class="eventListScrollDot"></div>
+        <!-- EVENTS -->
+        <div id="eventListContainer">
+          <div tabindex="0" id="eventDropDown">
+            <div id="CurrentEventText">Events</div>
+            <div id="dropDownOptionsContainer">
+              <div class="dropDownOption" value="events">Events</div>
+              <!-- <div class="dropDownOption" value="workshops">Workshops</div>
+            <div class="dropDownOption" value="speakerSessions">Speaker Sessions</div> -->
+            </div>
           </div>
 
-          <div class="arrowButtonContainer">
-            <div class="arrowButton up"></div>
-            <div class="arrowButton down"></div>
-          </div>
+          <div class="eventList active" id="events">
 
-          <% if(event_list[0].event_type === "competition"){%>
-             <div class="eventContainer active">
-              <div class="eventImageWrapper">
-                <img class="eventImage" src="/eventImages/pitchpleases.png" alt=".png">
-              </div>
-              <div class="eventContentWrapper">
-                <h1 class="eventHeader"><%= event_list[0].name %></h1>
-                <p class="eventDetail">
-                  <%= event_list[0].content.outcome[0] %>......<a class="readMore" href="/events/<%=event_list[0].id%>"><b>Read More</b></a>
-                </p>
-  
-                <div class="eventDates">
-                  <p>
-                    <b>Date</b><br>
-                    <% for(var j=0;j<event_list[0].stages_timeline.length;j++){%>
-                      <%= event_list[0].stages_timeline[j].stage_name %> - <%= event_list[0].stages_timeline[j].stage_start_datetime %><br> 
-                    <%}%>
-                  </p>
-                </div>
+            <div class="eventListScrollDotBar">
+              <div class="eventListScrollDot active"></div>
+              <div class="eventListScrollDot"></div>
+              <div class="eventListScrollDot"></div>
+              <div class="eventListScrollDot"></div>
+              <div class="eventListScrollDot"></div>
+              <div class="eventListScrollDot"></div>
+            </div>
 
-                <% if(event_list[0].is_registering === true){ %>
-                  <a href="/register/<%=event_list[0].id%>" class="registerFormLink"
-                    ><span class="registerFormLinkText">
-                      Register Now <i class="fa-solid fa-arrow-right"></i>
-                    </span>
-                  </a>
-                <% }else{%>
-                  <a href="" class="registerFormLink"
-                    ><span class="registerFormLinkText">
-                      Registrations Closed <i class="fa-solid fa-arrow-right"></i>
-                    </span>
-                  </a>
-                  <%}%>
-              </div>
-            </div> 
-          <%}%>
-          
+            <div class="arrowButtonContainer">
+              <div class="arrowButton up"></div>
+              <div class="arrowButton down"></div>
+            </div>
 
-          <% for(var i=1;i<event_list.length;i++){ %>
-            <% if(event_list[i].event_type === "competition"){ %>
-              <div class="eventContainer next">
+            <% if(event_list[0].event_type==="competition" ){%>
+              <div class="eventContainer active">
                 <div class="eventImageWrapper">
-                  <img class="eventImage" src="/eventImages/<%=event_list[i].poster_img%>" alt=".png">
+                  <img class="eventImage" src="/eventImages/pitchpleases.png" alt=".png">
                 </div>
                 <div class="eventContentWrapper">
-                  <h1 class="eventHeader"><%= event_list[i].name %></h1>
+                  <h1 class="eventHeader">
+                    <%= event_list[0].name %>
+                  </h1>
                   <p class="eventDetail">
-                    <%= event_list[i].content.outcome[0] %>......<a class="readMore" href="/events/<%=event_list[i].id%>"><b>Read More</b></a>
+                    <%= event_list[0].content.outcome[0] %>......<a class="readMore"
+                        href="/events/<%=event_list[0].id%>"><b>Read More</b></a>
                   </p>
-    
+
                   <div class="eventDates">
                     <p>
                       <b>Date</b><br>
-                      <% for(var j=0;j<event_list[i].stages_timeline.length;j++){%>
-                        <%= event_list[i].stages_timeline[j].stage_name %> - <%= event_list[i].stages_timeline[j].stage_start_datetime %><br> 
-                      <%}%>
+                      <% for(var j=0;j<event_list[0].stages_timeline.length;j++){%>
+                        <%= event_list[0].stages_timeline[j].stage_name %> - <%=
+                            event_list[0].stages_timeline[j].stage_start_datetime %><br>
+                            <%}%>
                     </p>
                   </div>
 
-                  <% if(event_list[i].is_registering === true){ %>
-                    <a href="register/<%= event_list[i].id %>" class="registerFormLink"
-                      ><span class="registerFormLinkText">
+                  <% if(event_list[0].is_registering===true){ %>
+                    <a href="/register/<%=event_list[0].id%>" class="registerFormLink"><span
+                        class="registerFormLinkText">
                         Register Now <i class="fa-solid fa-arrow-right"></i>
                       </span>
                     </a>
-                  <% }else{%>
-                    <a href="" class="registerFormLink"
-                      ><span class="registerFormLinkText">
-                        Registrations Closed <i class="fa-solid fa-arrow-right"></i>
-                      </span>
-                    </a>
-                    <%}%>
+                    <% }else{%>
+                      <a href="" class="registerFormLink"><span class="registerFormLinkText">
+                          Registrations Closed <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                      </a>
+                      <%}%>
                 </div>
               </div>
-            <%}%>
-            
-          <%}%>
-          <!-- <div class="eventContainer active">
+              <%}%>
+
+
+                <% for(var i=1;i<event_list.length;i++){ %>
+                  <% if(event_list[i].event_type==="competition" ){ %>
+                    <div class="eventContainer next">
+                      <div class="eventImageWrapper">
+                        <img class="eventImage" src="/eventImages/<%=event_list[i].poster_img%>" alt=".png">
+                      </div>
+                      <div class="eventContentWrapper">
+                        <h1 class="eventHeader">
+                          <%= event_list[i].name %>
+                        </h1>
+                        <p class="eventDetail">
+                          <%= event_list[i].content.outcome[0] %>......<a class="readMore"
+                              href="/events/<%=event_list[i].id%>"><b>Read More</b></a>
+                        </p>
+
+                        <div class="eventDates">
+                          <p>
+                            <b>Date</b><br>
+                            <% for(var j=0;j<event_list[i].stages_timeline.length;j++){%>
+                              <%= event_list[i].stages_timeline[j].stage_name %> - <%=
+                                  event_list[i].stages_timeline[j].stage_start_datetime %><br>
+                                  <%}%>
+                          </p>
+                        </div>
+
+                        <% if(event_list[i].is_registering===true){ %>
+                          <a href="register/<%= event_list[i].id %>" class="registerFormLink"><span
+                              class="registerFormLinkText">
+                              Register Now <i class="fa-solid fa-arrow-right"></i>
+                            </span>
+                          </a>
+                          <% }else{%>
+                            <a href="" class="registerFormLink"><span class="registerFormLinkText">
+                                Registrations Closed <i class="fa-solid fa-arrow-right"></i>
+                              </span>
+                            </a>
+                            <%}%>
+                      </div>
+                    </div>
+                    <%}%>
+
+                      <%}%>
+                        <!-- <div class="eventContainer active">
             <div class="eventImageWrapper">
               <img class="eventImage" src="/eventImages/pitchpleases.png" alt=".png">
             </div>
@@ -210,7 +210,7 @@
             </div>
           </div> -->
 
-          <!-- <div class="eventContainer next">
+                        <!-- <div class="eventContainer next">
             <div class="eventImageWrapper">
               <img class="eventImage" src="/eventImages/event1.png" alt=".png">
             </div>
@@ -269,130 +269,127 @@
               </a>
             </div>
           </div> -->
+          </div>
+
+          <div class="eventList" id="workshops">
+
+            <div class="eventListScrollDotBar">
+              <div class="eventListScrollDot active"></div>
+              <div class="eventListScrollDot"></div>
+            </div>
+
+            <div class="arrowButtonContainer">
+              <div class="arrowButton up"></div>
+              <div class="arrowButton down"></div>
+            </div>
+            <% if(event_list[1].event_type==="workshop" ){%>
+              <div class="eventContainer active">
+                <div class="eventImageWrapper">
+                  <img class="eventImage" src="/eventImages/event1.png" alt=".png">
+                </div>
+                <div class="eventContentWrapper">
+                  <h1 class="eventHeader">IPL workshop</h1>
+                  <p class="eventDetail">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi,
+                    augue mattis condimentum gravida ultrices nunc sagittis,
+                    faucibus lacus. Ornare urna nibh pellentesque odio senectus
+                    habitasse eu enim sit. Urna enim egestas diam nulla sit......
+                  </p>
+                  <a href="" class="registerFormLink"><span class="registerFormLinkText">
+                      Register Now <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <%}%>
+
+                <% for(var i=1;i<event_list.length;i++){ %>
+                  <% if(event_list[i].event_type==="competition" ){ %>
+                    <div class="eventContainer next">
+                      <div class="eventImageWrapper">
+                        <img class="eventImage" src="/eventImages/event1.png" alt=".png">
+                      </div>
+                      <div class="eventContentWrapper">
+                        <h1 class="eventHeader">IPL workshop</h1>
+                        <p class="eventDetail">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi,
+                          augue mattis condimentum gravida ultrices nunc sagittis,
+                          faucibus lacus. Ornare urna nibh pellentesque odio senectus
+                          habitasse eu enim sit. Urna enim egestas diam nulla sit......
+                        </p>
+                        <a href="" class="registerFormLink"><span class="registerFormLinkText">
+                            Register Now <i class="fa-solid fa-arrow-right"></i>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                    <%}%>
+                      <%}%>
+          </div>
+
+          <div class="eventList" id="speakerSessions">
+
+            <div class="eventListScrollDotBar">
+              <div class="eventListScrollDot active"></div>
+              <div class="eventListScrollDot"></div>
+            </div>
+
+            <div class="arrowButtonContainer">
+              <div class="arrowButton up"></div>
+              <div class="arrowButton down"></div>
+            </div>
+            <% if(event_list[1].event_type==="workshop" ){%>
+
+              <div class="eventContainer active">
+                <div class="eventImageWrapper">
+                  <img class="eventImage" src="/eventImages/event1.png" alt=".png">
+                </div>
+                <div class="eventContentWrapper">
+                  <h1 class="eventHeader">IPL Speaker</h1>
+                  <p class="eventDetail">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi,
+                    augue mattis condimentum gravida ultrices nunc sagittis,
+                    faucibus lacus. Ornare urna nibh pellentesque odio senectus
+                    habitasse eu enim sit. Urna enim egestas diam nulla sit......
+                  </p>
+                  <a href="/register/pitch-please" class="registerFormLink"><span class="registerFormLinkText">
+                      Register Now <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <%}%>
+                <% for(var i=1;i<event_list.length;i++){ %>
+                  <% if(event_list[i].event_type==="competition" ){ %>
+
+                    <div class="eventContainer next">
+                      <div class="eventImageWrapper">
+                        <img class="eventImage" src="/eventImages/event1.png" alt=".png">
+                      </div>
+                      <div class="eventContentWrapper">
+                        <h1 class="eventHeader">IPL Seapker</h1>
+                        <p class="eventDetail">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi,
+                          augue mattis condimentum gravida ultrices nunc sagittis,
+                          faucibus lacus. Ornare urna nibh pellentesque odio senectus
+                          habitasse eu enim sit. Urna enim egestas diam nulla sit......
+                        </p>
+                        <a href="/register/pitch-please" class="registerFormLink"><span class="registerFormLinkText">
+                            Register Now <i class="fa-solid fa-arrow-right"></i>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                    <%}%>
+                      <%}%>
+          </div>
         </div>
-
-        <div class="eventList" id="workshops">
-
-          <div class="eventListScrollDotBar">
-            <div class="eventListScrollDot active"></div>
-            <div class="eventListScrollDot"></div>
-          </div>
-
-          <div class="arrowButtonContainer">
-            <div class="arrowButton up"></div>
-            <div class="arrowButton down"></div>
-          </div>
-          <% if(event_list[1].event_type === "workshop"){%>
-          <div class="eventContainer active">
-            <div class="eventImageWrapper">
-              <img class="eventImage" src="/eventImages/event1.png" alt=".png">
-            </div>
-            <div class="eventContentWrapper">
-              <h1 class="eventHeader">IPL workshop</h1>
-              <p class="eventDetail">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi,
-                augue mattis condimentum gravida ultrices nunc sagittis,
-                faucibus lacus. Ornare urna nibh pellentesque odio senectus
-                habitasse eu enim sit. Urna enim egestas diam nulla sit......
-              </p>
-              <a href="" class="registerFormLink"
-                ><span class="registerFormLinkText">
-                  Register Now <i class="fa-solid fa-arrow-right"></i>
-                </span>
-              </a>
-            </div>
-          </div>
-        <%}%>
-
-        <% for(var i=1;i<event_list.length;i++){ %>
-          <% if(event_list[i].event_type === "competition"){ %>
-          <div class="eventContainer next">
-            <div class="eventImageWrapper">
-              <img class="eventImage" src="/eventImages/event1.png" alt=".png">
-            </div>
-            <div class="eventContentWrapper">
-              <h1 class="eventHeader">IPL workshop</h1>
-              <p class="eventDetail">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi,
-                augue mattis condimentum gravida ultrices nunc sagittis,
-                faucibus lacus. Ornare urna nibh pellentesque odio senectus
-                habitasse eu enim sit. Urna enim egestas diam nulla sit......
-              </p>
-              <a href="" class="registerFormLink"
-                ><span class="registerFormLinkText">
-                  Register Now <i class="fa-solid fa-arrow-right"></i>
-                </span>
-              </a>
-            </div>
-          </div>
-        <%}%>
-      <%}%>
-        </div>
-
-        <div class="eventList" id="speakerSessions">
-
-          <div class="eventListScrollDotBar">
-            <div class="eventListScrollDot active"></div>
-            <div class="eventListScrollDot"></div>
-          </div>
-
-          <div class="arrowButtonContainer">
-            <div class="arrowButton up"></div>
-            <div class="arrowButton down"></div>
-          </div>
-          <% if(event_list[1].event_type === "workshop"){%>
-
-          <div class="eventContainer active">
-            <div class="eventImageWrapper">
-              <img class="eventImage" src="/eventImages/event1.png" alt=".png">
-            </div>
-            <div class="eventContentWrapper">
-              <h1 class="eventHeader">IPL Speaker</h1>
-              <p class="eventDetail">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi,
-                augue mattis condimentum gravida ultrices nunc sagittis,
-                faucibus lacus. Ornare urna nibh pellentesque odio senectus
-                habitasse eu enim sit. Urna enim egestas diam nulla sit......
-              </p>
-              <a href="/register/pitch-please" class="registerFormLink"
-                ><span class="registerFormLinkText">
-                  Register Now <i class="fa-solid fa-arrow-right"></i>
-                </span>
-              </a>
-            </div>
-          </div>
-        <%}%>
-        <% for(var i=1;i<event_list.length;i++){ %>
-          <% if(event_list[i].event_type === "competition"){ %>
-
-          <div class="eventContainer next">
-            <div class="eventImageWrapper">
-              <img class="eventImage" src="/eventImages/event1.png" alt=".png">
-            </div>
-            <div class="eventContentWrapper">
-              <h1 class="eventHeader">IPL Seapker</h1>
-              <p class="eventDetail">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi,
-                augue mattis condimentum gravida ultrices nunc sagittis,
-                faucibus lacus. Ornare urna nibh pellentesque odio senectus
-                habitasse eu enim sit. Urna enim egestas diam nulla sit......
-              </p>
-              <a href="/register/pitch-please" class="registerFormLink"
-                ><span class="registerFormLinkText">
-                  Register Now <i class="fa-solid fa-arrow-right"></i>
-                </span>
-              </a>
-            </div>
-          </div>
-        <%}%>
-      <%}%>
-        </div>
+        <!-- EVENTS -->
       </div>
-      <!-- EVENTS -->
-    </div>
 
-    <script src="/js/loader.js"></script>
-    <script src="/js/menu.js"></script>
-    <script src="/js/eventPage.js"></script>
-  </body>
+      <script src="/js/loader.js"></script>
+      <script src="/js/menu.js"></script>
+      <script src="/js/eventPage.js"></script>
+</body>
+
 </html>
