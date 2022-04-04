@@ -10,13 +10,13 @@ const event_list = [{
     stages_timeline: [{
         stage_id: "stage_1",
         stage_name: "Stage 1 (Online Screening)",
-        stage_start_datetime: "11:59 pm, 10 April 2021",
+        stage_start_datetime: "11:59 pm, 10 April 2022",
         stage_end_datetime: "",
     },
     {
         stage_id: "stage_2",
         stage_name: "Stage 2 (Pitching)",
-        stage_start_datetime: "11:59 pm, 10 April 2021",
+        stage_start_datetime: "11:59 pm, 10 April 2022",
         stage_end_datetime: "",
     }
     ],
@@ -113,7 +113,7 @@ const event_list = [{
     content: {
         overview: [""],
         outcome: ["“outwit the BoardRoom” is the ultimate test of a startups’ core players’ decision making ability, juggling the restraints as they go. Teams of five, each member attaining the role of a vital team player, will play the the first round which quizes the individual responsibilities of each Board Member. ", "Seven teams will advance to the second and final round. This round entails a problem statement with resource restrictions (funds, equity, employees’ ability and more). Each team gets 1.5 hrs to discuss and pull the most efficient solution out of the bag. The CEO makes the final call and here forth presents a 15 min presentation of the same to the judging panel. The judges make the last ruling based on their assessment to declare the winner!"],
-        guidelines: ["->Participants should register in teams of 5 members each.", "->Each team shall contain one of each of the following mandatorily.Chief Executive Officer(CEO), Chief Technology Officer(CTO), Chief Financial Officer(CFO), Chief Marketing Officer(CMO), Human Resources Manager(HR)", "->𝘋𝘦𝘢𝘥𝘭𝘪𝘯𝘦-  9 𝘈𝘱𝘳𝘪𝘭 2021"],
+        guidelines: ["->Participants should register in teams of 5 members each.", "->Each team shall contain one of each of the following mandatorily.Chief Executive Officer(CEO), Chief Technology Officer(CTO), Chief Financial Officer(CFO), Chief Marketing Officer(CMO), Human Resources Manager(HR)", "->𝘋𝘦𝘢𝘥𝘭𝘪𝘯𝘦-  9 𝘈𝘱𝘳𝘪𝘭 2022"],
         stages: [{
             stage_id: "stage_1",
             stage_name: "Stage 1 (Knockout Quiz)",
