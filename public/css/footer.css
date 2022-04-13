@@ -171,3 +171,9 @@ footer {
     font-weight: bold;
     font-size: 1.2rem;
 }
+
+@media(max-width:480px){
+    .footer_text{
+        width: 75%;
+    }
+}

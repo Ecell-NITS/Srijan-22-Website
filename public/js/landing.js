@@ -79,34 +79,34 @@ function scrollChange() {
     VerticalLine.classList.remove("verticalLine");
   }
 
-  //normal-view: breakpoints 364-2232-4380-5596 before announcement
+  //normal-view: breakpoints 364-2232-5728-7616 before announcement
 
   if (y > 500) {
     if ( x < 364) {
       InitialState();
     } else if (x > 364 && x < 2232) {
       changeColorToBlack();
-    } else if (x > 2232 && x < 4380) {
+    } else if (x > 2232 && x < 5728) {
       changeColorToWhite();
-    } else if (x > 4380 && x < 5596) {
+    } else if (x > 5728 && x < 7616) {
       changeColorToBlack();
-    } else if (x > 5596) {
+    } else if (x > 7616) {
       changeColorToWhite();
     }
   }
 
-  //mobile-view : breakpoints 243-2171-4044-5173 before announcement
+  //mobile-view : breakpoints 243-2171-5373-8108 before announcement
 
   if (y < 500) {
     if (x < 243) {
       MobileInitialState();
     } else if (x > 243 && x < 2171) {
       changeColorToBlack();
-    } else if (x > 2171 && x < 4440) {
+    } else if (x > 2171 && x < 5373) {
       changeColorToWhite();
-    } else if (x > 4440 && x < 5696) {
+    } else if (x > 5373 && x < 8108) {
       changeColorToBlack();
-    } else if (x > 5696) {
+    } else if (x > 8108) {
       changeColorToWhite();
     }
   }
