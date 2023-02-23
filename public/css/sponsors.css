@@ -56,6 +56,31 @@
     margin: 23% 0 23% 0;
 }
 
+.sponsor-ttl{
+    /* background-color: red; */
+    width: 85%;
+    margin: 0 auto;
+    min-height: 50vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.partner-indi{
+    width: 21%;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-spon-holder{
+    width: 100%;
+    /* height: 50vw; */
+}
+
+.img-spon-holder img{
+    width: 100%;
+    object-fit: contain;
+}
+
 @media (max-width: 450px) {
     .headingSponsors {
         font-size: 2rem;
