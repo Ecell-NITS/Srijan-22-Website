@@ -44,6 +44,10 @@
 
 /* MENU STYLES */
 
+.menuToggleButtonInactive:hover{
+    cursor: pointer !important;
+}
+
 #menu {
     position: fixed;
     top: 0;
@@ -128,6 +132,10 @@
 
 .menuToggleButtonActive {
     background-image: linear-gradient(180deg, var(--primary) 0%, var(--secondary) 100%);
+}
+
+.menuToggleButtonActive:hover{
+    cursor: pointer !important;
 }
 
 .menuToggleButtonLinesActive {
@@ -249,6 +257,12 @@
         width: 3rem;
         height: 3rem;
         right: 4%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .menuItem {
+        margin-left: 15%;
     }
 }
 
