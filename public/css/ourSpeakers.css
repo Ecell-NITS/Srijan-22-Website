@@ -28,6 +28,7 @@ body{
     font-family: "Gilroy";
     font-weight: bold;
     font-size: 48px;
+    text-align: center;
 }
 .grad-font {
     background: linear-gradient(180deg, #b621fe 0%, #1fd1f9 100%);
@@ -121,6 +122,19 @@ body{
         transform: scale(1);
     }
     .speaker-social-media{
-        width: 40%;
+        width: 40% !important;
+        /* font-size: 1.1rem; */
+    }
+
+    /* .speaker-heading{
+        font-size: 9vw;
+    } */
+
+    .speaker-name{
+        font-size: 6vw;
+    }
+
+    .speaker-des{
+        font-size: 4vw;
     }
 }

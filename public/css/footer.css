@@ -171,3 +171,20 @@ footer {
     font-weight: bold;
     font-size: 1.2rem;
 }
+
+@media screen and (max-width:660px){
+    .footer_text span {
+        font-size: 6vw;
+    }
+
+    .footer_text span1 {
+        font-size: 5vw;
+        margin-top: 40vw !important;
+    }
+
+    .footer_text span2 {
+        font-size: 4vw;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+}

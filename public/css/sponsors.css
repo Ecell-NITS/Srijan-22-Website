@@ -13,11 +13,11 @@
 }
 
 .sponserCategory {
-    font-size: 1.6rem;
+    font-size: 1.67vw;
 }
 
 .sponsorName {
-    font-size: 1.3rem;
+    font-size: 1.355vw;
 }
 
 .sponsorTotal {
@@ -56,6 +56,77 @@
     margin: 23% 0 23% 0;
 }
 
+.sponsor-ttl{
+    width: 87%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.partner-indi{
+    width: 25%;
+    flex: none;
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-spon-holder{
+    width: 100%;
+    margin-top: 4%;
+    height: 10vw;
+}
+
+.img-spon-holder img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.part-comp-nme{
+    margin-top: 6%;
+}
+
+#gfgshort{
+    display: block;
+    width: 70% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+@media screen and (max-width:660px){
+    .sponsor-ttl{
+        width: 82%;
+       display: flex;
+       flex-direction: column;
+    }
+
+    .partner-indi{
+        width: 100%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .img-spon-holder{
+        height: 30vw;
+        margin-top: 0%;
+    }
+
+    .sponserCategory {
+        font-size: 5.9vw;
+    }
+    
+    .sponsorName {
+        font-size: 5.455vw;
+    }
+
+    .part-comp-nme{
+        margin-top: 0%;
+    }
+}
 @media (max-width: 450px) {
     .headingSponsors {
         font-size: 2rem;
