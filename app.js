@@ -11,7 +11,7 @@ dotenv.config();
 const connectToMongo = require('./db')
 connectToMongo();
 
-const APP_PORT = process.env.PORT || 3000;
+const APP_PORT = process.env.PORT || 8000;
 const app = express();
 
 app.set('view engine', 'ejs');
