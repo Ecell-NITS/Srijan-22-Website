@@ -1,7 +1,7 @@
 {
   "name": "srijan-22-website",
   "version": "1.0.0",
-  "description": "",
+  "description": "https://docs.google.com/document/d/1IGCAfF3ON4L73M2IIoXIc_-wrHPHtI8TZGoHYNAF0PI/edit ## Design Link:",
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js",
@@ -21,7 +21,7 @@
   "dependencies": {
     "aos": "^2.3.4",
     "body-parser": "^1.19.2",
-    "dotenv": "^16.0.0",
+    "dotenv": "^16.0.3",
     "ejs": "^3.1.6",
     "esm": "^3.2.25",
     "express": "^4.17.3",
